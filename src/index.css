@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --button-color: rgba(13, 22, 94, 0.781);
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Inter", sans-serif;
+}
+
+*{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: var(--primary-font);
+}
+
+.employees-listing, .employee-form{
+  padding: 50px 40px;
+}
+
+h1{
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 30px;
+
+}
+
+.employees-listing-header a, .button{
+  padding: 10px 15px;
+  background-color: var(--button-color);
+  text-decoration: none;
+  color: var(--bg-color);
+  border: none;
+
+}
+
+.secondary-button{
+   padding: 10px 15px;
+  background-color: transparent;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+}
+
+.button svg{
+  background-color: transparent;
+  font-size: 14px;
+  color: var(--bg-color);
+}
+
+
+.edit-btn, .delete-btn{
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--text-color)
+}
