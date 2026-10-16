@@ -1,5 +1,7 @@
 # Employee Directory – Frontend
-Description
+
+# Description
+Develop a simple Employee Directory where users can manage a list of employees, including their name, email, and job role.
 
 # Frontend for the Employee Directory application.
 
